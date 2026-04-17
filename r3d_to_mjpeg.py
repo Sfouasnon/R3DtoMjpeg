@@ -497,8 +497,6 @@ class MainWindow(QMainWindow):
         il = QVBoxLayout(inp); il.setSpacing(6)
         self.file_list = DropListWidget()
         self.file_list.setMinimumHeight(130)
-        self.file_list.setPlaceholderText(
-            'Drag .r3d files here, or use Browse…')
 
         btn_row = QHBoxLayout()
         add_btn = QPushButton('Browse…')
